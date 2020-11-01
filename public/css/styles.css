@@ -1,0 +1,396 @@
+/*****************************GENERAL**********************/
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #545454;
+
+}
+.container-fluid{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style-type: none;
+}
+/**********************************LANDING PAGE*********************/
+#page1-main-container{
+    overflow: hidden;
+}
+#left-block{
+    background-image: url("../img/bg1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 10px solid white;
+    height: 1080px;
+}
+
+#right-block{
+    background-image: url("../img/bg2.jpg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 10px solid white;
+    height: 1080px;
+}
+/* studio container */
+.all-container{
+    margin-top: 50%;
+}
+/*btn studio */
+.btn-middle{
+    background-color: #e59100;
+    padding: 20px;
+    width: 25%;
+    border: none;
+    color: #3b7baf;
+    font-size: 1.5rem;
+    transition: .2s ease-in-out 0s;
+}
+.btn-middle:hover{
+    background-color: #b26e00;
+    color: white;
+    transform: scale(1.1);
+
+}
+.landing-title{
+    color: white;
+    font-size: 3rem;
+}
+/************************************BREAK POINT RESPONSIVE***********************************/
+@media screen and (max-width: 800px){
+    .btn-middle{
+        min-width: 50px;
+        font-size: 5px;
+    }
+    .landing-title{
+        color: white;
+        font-size: 15px;
+    }
+}
+
+/************************************PAGE STUDIO**********************************/
+#main-navbar{
+    width: 100%;
+}
+
+
+.nav-item{
+    width: 33%;
+}
+#bloc2{
+    background-image: url("../img/8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+#bloc2-title{
+    color: white;
+    font-size: 5rem;
+    padding-top: 33%;
+}
+.bloc2-subtitle{
+    color: white;
+    font-size: 2rem;
+}
+#btn-jouer{
+    background-color: #b50000;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    width: 25%;
+    border-radius: 20px;
+    transition: .2s ease-in-out 0s;
+}
+#btn-jouer:hover{
+    background-color: #e24141;
+    color: #333333;
+    transform: scale(1.1);
+    font-size: 2rem;
+}
+/********************BLOC3*******************/
+.col-4{
+    padding: 0;
+}
+#bloc3{
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+#bloc3-middle{
+    background-image: url("../img/9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 200px;
+    transition: .2s ease-in-out 0s;
+}
+#bloc3-middle:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+#bloc3-middle, h3, p{
+    color: white;
+}
+.bloc3-haut{
+    height: 60%;
+    background-color: red;
+}
+.bloc3-bas{
+    height: 40%;
+    background-color: green;
+}
+
+
+#bloc3-TL{
+    background-image: url("../img/4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    transition: .2s ease-in-out 0s;
+}
+
+#bloc3-TL:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#bloc3-TL, h3, p{
+    color: white;
+}
+#bloc3-TR{
+    background-image: url("../img/10.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    transition: .2s ease-in-out 0s;
+}
+#bloc3-TR:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#bloc3-TR, h3, p{
+    color: white;
+}
+#bloc3-BL{
+    background-color: #d6a000;
+    transition: .2s ease-in-out 0s;
+}
+
+#bloc3-BL:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bloc-jaune-interne{
+    position: relative;
+    top: 40px;
+    margin: 0px 40px 0 40px;
+    border: solid 2px grey;
+    box-shadow: 5px 5px 5px #666;
+}
+
+#bloc3-BR{
+    background-color: orange;
+    color: #666666!important;
+    transition: .2s ease-in-out 0s;
+}
+
+#bloc3-BR:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bloc-blanc-interne{
+    position: relative;
+    top: 40px;
+    margin: 0px 40px 0 40px;
+    border: solid 2px grey;
+    box-shadow: 5px 5px 5px #666;
+    background-color: white;
+    color: #666666;
+}
+/***********************************BLOC 4******************************/
+#bloc-4{
+    margin-top: 40px;
+    background-color: white;
+    height: 1060px;
+    width: 100%;
+}
+.bloc3-row{
+    margin: 0;
+}
+
+.bloc3-photo1{
+    background-image: url("../img/5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    border: solid 10px white;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+.bloc3-photo1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bloc3-photo1-text{
+    color: #333333;
+    margin-top: 380px;
+}
+
+.bloc3-photo2{
+    background-image: url("../img/3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    height: 400px;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+
+.bloc3-photo2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bloc3-photo2-text{
+    color: #333333;
+    margin-top: 380px;
+}
+
+
+.bloc3-photo3{
+    background-image: url("../img/6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    height: 400px;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+
+.bloc3-photo3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bloc3-photo4{
+    background-image: url("../img/7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    height: 400px;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+
+.bloc3-photo4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/****************************BLOC 3  ROW 2**********************/
+#bloc3-row2{
+    width: 100%;
+    background-color: red;
+    position: relative;
+    top: 120px;
+    margin: 0;
+}
+.bloc3-photo5{
+    background-image: url("../img/11.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    height: 400px;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+
+.bloc3-photo5:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bloc3-photo6{
+    background-image: url("../img/12.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    height: 400px;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+
+.bloc3-photo6:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.bloc3-photo7{
+    background-image: url("../img/bg1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    height: 400px;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+
+.bloc3-photo7:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bloc3-photo8{
+    background-image: url("../img/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    height: 400px;
+    display: block;
+    transition: .2s ease-in-out 0s;
+}
+
+.bloc3-photo8:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/**********************************FOOTER************************/
+footer {
+    padding:20px;
+    margin-top: 40px;
+    bottom: 0;
+    background-color: white;
+
+}
+
+
+
+
+
